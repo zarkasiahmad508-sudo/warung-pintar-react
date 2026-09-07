@@ -133,13 +133,13 @@ export default function App() {
           />
 
           {/* PANEL TABEL PRODUK */}
-        <div>  
+          
           <TabelDaftar
            daftarItem={daftarItem}
-           onubahStok={ubahStok}
+           onUbahStok={ubahStok}
            onHapus={hapusDaftar}
           />
-        </div>
+        
         </div>
       </div>
     </div>
