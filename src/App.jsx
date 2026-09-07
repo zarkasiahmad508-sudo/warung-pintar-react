@@ -124,7 +124,7 @@ export default function App() {
         {/* LAYOUT GRID UTAMA */}
         <div className="flex flex-col md:flex-row gap-4 mt-4">
           
-          {/* 3. PANGGIL PANEL FORM INPUT BARU */}
+          {/* PANGGIL PANEL FORM INPUT BARU */}
           <FormInput 
             inputProduk={inputProduk} setInputProduk={setInputProduk}
             inputStok={inputStok} setInputStok={setInputStok}
